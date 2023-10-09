@@ -37,10 +37,10 @@ public class Luckyseven {
                 System.out.println("You lost.");
             }
 
-            // Print the remaining money
+            // Printing the remaining money
             System.out.println("Remaining money: " + playerMoney + "€");
 
-            // Ask if the player wants to play another round
+            // Asking if the player wants to play another round or not 
             if (playerMoney > 0) {
                 System.out.print("Play another round? (yes/no): ");
                 String playAgain = scanner.next();
